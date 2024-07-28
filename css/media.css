@@ -1,0 +1,86 @@
+@media (max-width: 834px){
+
+  html {
+    font-size: calc(100vw / 834 * 10);
+  }
+
+  .body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: black;
+  }
+
+  .container {
+    max-width: 73.9rem;
+    padding: 0;
+  }
+
+  .title {
+    font-size: 3.2rem;
+  }
+
+  .header {
+    padding: 3.2rem 0 2rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    background-color: white;
+  }
+
+  .header__inner {
+    gap: 4.5rem;
+  }
+
+  .logo {
+    width: 13.1rem;
+  }
+
+  .menu__list {
+    gap: 3.2rem;
+  }
+
+  .hero-section {
+    padding: 12.4rem 0;
+  }
+
+  .hero-section__heading {
+    margin-top: 6.2rem;
+  }
+
+  .hero-section__inner {
+    align-items: start;
+    gap: 1.3rem;
+  }
+
+  .hero-section__title {
+    max-width: 42.7rem;
+    font-size: 3.2rem;
+  }
+
+  .hero-section__text {
+    width: 41.7rem;
+    font-size: 1.6rem;
+    margin-bottom: 3.2rem;
+  }
+
+  .hero-sectio__action-wrap {
+    padding: 2.5rem 2.4rem;
+    gap: 3.3rem;
+    margin-bottom: 4rem;
+  }
+
+  .hero-sectio__action-images {
+    gap: 0rem;
+  }
+
+  .action-image {
+    width: 5rem;
+  }
+
+  .hero-section__image {
+    width: 29.8rem;
+  }
+}
